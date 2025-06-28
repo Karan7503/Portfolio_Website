@@ -1,0 +1,82 @@
+#about{
+    display: inline-flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3rem;
+
+}
+
+.about1{
+    /* background-color: red; */
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .5s;
+}
+.about1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.about1:hover{
+    color: #00abf0;
+
+}
+
+.about2{
+    /* background-color: black; */
+    padding: 5%;
+}
+
+
+/* skills-section */
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 50px 0;
+    
+
+}
+
+.skills1 {
+    /* background-color: red; */
+    transition: .5s;
+}
+
+.skills1 h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: white;
+    margin: 0;
+    transition: .5s;
+
+}
+
+.skills1:hover h1{
+    color: #00abf0;
+
+}
+
+.list1 {
+    /* background-color: black; */
+    padding: 2rem 4rem;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.list1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list1 li {
+    margin: 10px 0;
+    font-size: 20px;
+}
